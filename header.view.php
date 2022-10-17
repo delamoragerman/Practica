@@ -3,7 +3,7 @@
     <div class="" id="marca">
         <div class="marca">
             <a href="#">
-                <img src="../../iconos/logo.png">
+                <img src="img/academy-badge-logo-free-vector.jpg">
                 <h6>CopySchool</h6>
             </a>
         </div>
@@ -11,7 +11,7 @@
             <ul>
                 <li><a href="index"><span><i class="fas fa-home"></i></span> Inicio</a></li>
                 <li class="sub-menu">
-                    <a href="catalogo"><span><i class="fas fa-child"></i></span>Principal</a>
+                    <a href="#"><span><i class="fas fa-child"></i></span>Principal</a>
                 </li>
                 <li class="sub-menu">
                     <a href="#"><span><i class="fas fa-user-circle"></i></span> Nosotros</a>
