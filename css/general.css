@@ -7,6 +7,8 @@ and open the template in the editor.
     Created on : 16 oct. 2022, 14:23:38
     Author     : German
 */
+
+/* ////////////////////////////// NAVEGADOR  WEB ////////////////////////////////// */
 *{
     margin: 0px;
     padding: 0px;
@@ -21,12 +23,6 @@ html{
     height: 1px;
     margin: 25px 5px;
     background-color: green;
-}
-header{
-    width: 100%;
-}
-.title-marca{
-    width: 50%;
 }
 body{
    background-color: #efefef;
@@ -51,3 +47,5 @@ form input{
     display: block;
     margin: 8px 3px;
 }
+
+/* ////////////////////////////// NAVEGADOR  MOVIL ////////////////////////////////// */

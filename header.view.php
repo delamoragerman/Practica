@@ -1,23 +1,30 @@
+<!-- Start Nav -->
 <header>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-6 col-xl-8">
-                <div>
-                    <a>
-                        <h3>titulo</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-6 col-xl-4">
-                <nav>
-                    <ul class="navbar">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Main</a></li>
-                        <li><a href="#">Us</a></li>
-                        <li><a href="#">Options</a></li>
-                    </ul>
-                </nav>
-            </div>
+    <div class="" id="marca">
+        <div class="marca">
+            <a href="#">
+                <img src="../../iconos/logo.png">
+                <h6>CopySchool</h6>
+            </a>
         </div>
+        <nav class="nav nav-bar">
+            <ul>
+                <li><a href="index"><span><i class="fas fa-home"></i></span> Inicio</a></li>
+                <li class="sub-menu">
+                    <a href="catalogo"><span><i class="fas fa-child"></i></span>Principal</a>
+                </li>
+                <li class="sub-menu">
+                    <a href="#"><span><i class="fas fa-user-circle"></i></span> Nosotros</a>
+                </li>
+            </ul>
+        </nav>
     </div>
+<!--    <div class="portada">
+        <a href="#">
+            <h3>Emprendimiento de ropa para niños</h3>
+            <img src="../../iconos/logo.png" id="img-portada">
+            <h1>Bamboo Kids</h1>
+        </a>
+    </div>-->
 </header>
+<!-- End Nav -->
