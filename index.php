@@ -10,9 +10,9 @@
     </head>
     <body>
         <div class="main-container">
-
+            
             <?php include 'header.view.php'; ?>
-
+            
             <div class="container-fluid">
                 <div class="row">
                     <section>
@@ -25,7 +25,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <section>
+                    <section class="section">
                         <div class="cont">
                             <h3>Formulario</h3>
                         </div>
@@ -50,7 +50,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <section>
+                    <section class="section">
                         <div>
                             <h3>Formulario 2</h3>
                         </div>
@@ -72,5 +72,6 @@
                 </div>
             </div>
         </div>
+        <footer></footer>
     </body>
 </html>
