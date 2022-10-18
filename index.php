@@ -10,17 +10,27 @@
     </head>
     <body>
         <div class="main-container">
-            
+
             <?php include 'header.view.php'; ?>
-            
+
             <div class="container-fluid">
                 <div class="row">
                     <section>
                         <div class="cont">
                             <h1>Bienvenido CopySchool!</h1>
                             <h3>Uno de los tantos sitios intentando hacer que la programación sea un poco más fácil de entender. </h3>
+                            <br>
+
                         </div>
                     </section>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="cont tips">
+                        <p><b>Esto que ves aquí debajo es un formulario. Se habre con el tag de "form"</b></p>
+                        <p><b>Lo usaremos para poder ingresar nuestros datos y que queden almacenados en la base de datos, para más adelante poder manipular todos esos datos.</b></p>
+                    </div>
                 </div>
             </div>
             <div class="container">
