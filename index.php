@@ -28,24 +28,25 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="cont tips">
-                        <p><b>Esto que ves aquí debajo es un formulario. Se habre con el tag de "form"</b></p>
-                        <p><b>Lo usaremos para poder ingresar nuestros datos y que queden almacenados en la base de datos, para más adelante poder manipular todos esos datos.</b></p>
+                        <p>Esto que ves aquí debajo es un formulario. Y al hacer <a href="#cont_singUp">Click</a> en este hipervinculo te llevara al formulario de registro porque porque es a donde apunta el mismo.</p>
+                        <p>Lo usaremos para poder ingresar nuestros datos y que queden almacenados en la base de datos, para más adelante poder manipular los mismos.</p>
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="row">
-                    <section class="section">
+                    <section class="section" id="cont_singUp">
                         <div class="cont">
                             <h3>Formulario</h3>
                         </div>
                         <div class="cont cont-form">
-                            <form>
-                                <input type="text" name="name" placeholder="Nombre" required>
-                                <input type="text" name="lastName" placeholder="Apellido" required>
-                                <input type="number" name="age" min="16" max="110" placeholder="Edad" required>
-                                <input type="email" name="email" placeholder="Email" required>
-                                <input type="text" name="userName" placeholder="Usuario" required>
+                            <span><h6>Completa el siguiente formulario para poder interactuar mejor con nuetro sitio</h6></span>
+                            <form id="signUp">
+                                <input type="text" name="name" placeholder="Nombre" autocomplete="off" required>
+                                <input type="text" name="lastName" placeholder="Apellido" autocomplete="off" required>
+                                <input type="number" name="age" min="16" min="18" max="110" placeholder="Edad" autocomplete="off" required>
+                                <input type="email" name="email" placeholder="Email" autocomplete="off" required>
+                                <input type="text" name="userName" placeholder="Usuario" autocomplete="off" required>
                                 <input type="password" name="password" placeholder="Password" maxlength="10" required>
                                 <input type="submit" value="Registrarme">
                             </form>
@@ -82,6 +83,11 @@
                 </div>
             </div>
         </div>
-        <footer></footer>
+        <footer>
+            <script src="/js/jquery-3.6.0.min.js"></script>
+            <script src="https://kit.fontawesome.com/c2d935188e.js" crossorigin="anonymous"></script>
+            <script src="js/bootstrap.min.js"></script>            
+            <script src="js/general.js" type="text/javascript"></script>
+        </footer>
     </body>
 </html>
