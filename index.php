@@ -12,8 +12,8 @@
         <div class="main-container">
             
             <?php include 'header.view.php'; ?>
-            
-            <div class="container-fluid">
+             
+           <div class="container-fluid">
                 <div class="row">
                     <section>
                         <div class="cont">
