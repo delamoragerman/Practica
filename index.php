@@ -9,30 +9,21 @@
         <link href="css/header-navs-menus.css" rel="stylesheet">
     </head>
     <body>
-        <div class="main-container">
 
-            <div class="container">
-                <div class="row">
-                    <section class="section" id="cont_singUp">
-                        <div class="cont">
-                            <h3>Formulario</h3>
-                        </div>
-                        <div class="cont cont-form">
-                            <span><h6>Completa el siguiente formulario para poder interactuar mejor con nuetro sitio</h6></span>
-                            <form id="signUp">
-                                <input type="text" name="name" placeholder="Nombre" autocomplete="off" required>
-                                <input type="text" name="lastName" placeholder="Apellido" autocomplete="off" required>
-                                <input type="number" name="age" min="16" min="18" max="110" placeholder="Edad" autocomplete="off" required>
-                                <input type="email" name="email" placeholder="Email" autocomplete="off" required>
-                                <input type="text" name="userName" placeholder="Usuario" autocomplete="off" required>
-                                <input type="password" name="password" placeholder="Password" maxlength="10" required>
-                                <input type="submit" value="Registrarme">
-                            </form>
-                        </div>
-                    </section>
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="">
+                    <div class="cont-form">
+                        <form>
+                            <input type="text" name="userName" placeholder="User" autocomplete="off" required>
+                            <input type="password" name="password" placeholder="Password" autocomplete="off" required>
+                            <input type="submit" class="btn btn-success" value="Login">
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
+
         <footer>
             <script src="/js/jquery-3.6.0.min.js"></script>
             <script src="https://kit.fontawesome.com/c2d935188e.js" crossorigin="anonymous"></script>
