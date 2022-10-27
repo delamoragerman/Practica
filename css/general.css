@@ -8,51 +8,23 @@ and open the template in the editor.
     Author     : German
 */
 
-/* ////////////////////////////// NAVEGADOR  WEB ////////////////////////////////// */
 *{
     box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
-    box-sizing: border-box;
+.cont-index{
+    margin: 150px auto;
+    justify-content: center;
+    align-items: center;
 }
-body{
-   background-color: #efefef;
-}
-.capa{
-    background-color: #000;
-    opacity: 0.6;
-    position: absolute;
-    width: 100%;
-    height: 90vh;
-    z-index: 1;
-}
-.cont{
-    background-color: rgb(239, 239, 239, 0.4);
-    text-align: center;
+.cont-form{
+    border: 1px solid orangered;
     padding: 20px;
-}
-section{
-    width: 100%;
-    padding: 20px;
-}
-.section{
-    background-color: red;
-    /*background-color: #878DA3;*/
-}
-section .cont-form{
-    width: 30%;
-    border: 1px solid brown;
-    margin: 15px auto;
 }
 form{
-    margin:  auto;
-    padding: 5px;
+    width: 100%;
 }
 form input{
-    width: 90%;
+    width: 100%;
     display: block;
-    margin: 8px auto;
+    margin: 1px 5px 5px 5px;
 }
-
-/* ////////////////////////////// NAVEGADOR  MOVIL ////////////////////////////////// */
