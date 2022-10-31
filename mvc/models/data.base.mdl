@@ -1,0 +1,33 @@
+<?php
+
+class DatabaseMdl {
+
+//    public function varRequests() {
+//        $return = [];
+////        Creo una variable por cada REQUEST con el mismo nombre que trae
+//        foreach ($_REQUEST as $req => $value) {
+//            $return += [$req => $value];
+//        }
+//    }
+
+    public function connect() {
+        $_servername = "localhost";
+        $_username = "root";
+        $_password = "rootroot";
+        $_dbname = "bamboov01";
+
+        try {
+            $conn = new PDO("mysql: host=$_servername, dbname=$_dbname, $_username, $_password");
+            $conn->setAtribute(PDO :: ATTR_ERRMODE, PDO :: ERRMODE_EXCEPTION);
+            return $conn;
+        } catch (PDOException $e) {
+            $e->getMessage();
+            $arr_ret = array("estado" => false, "description" => 'Error conectando con la base de datos', "details" => $e->getMessage(), 'datos' => array());
+            echo json_encode($arr_ret);
+            exit;
+        }
+    }
+
+}
+
+?>
