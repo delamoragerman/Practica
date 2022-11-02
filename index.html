@@ -15,11 +15,13 @@ and open the template in the editor.
     <body>
         <div class="main-container">
             <div class="container">
-                <div class="row">
+                <div class="row cont-index">
                     <div class="cont-form">
-                        <form>
-                            <input type="text" name="userName" maxlength="18" placeholder="User" required>
-                            <input type="password" name="password" placeholder="Password" required>
+                        <form id="form_login" method="POST" action="">
+                            <label for="userName">User</label>
+                            <input type="text" name="userName" maxlength="18" placeholder="Write here your username" autocomplete="off" required>
+                            <label for="password">Password</label>
+                            <input type="password" name="password" placeholder="Write here your password" required>
                             <input type="submit" class="btn btn-success" value="Login">
                         </form>
                     </div>
