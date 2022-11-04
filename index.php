@@ -31,10 +31,12 @@ and open the template in the editor.
                 <div class="row cont-index">
                     <div class="cont-form">
                         <form id="form_register" method="POST" action="Apps/singUp.php">
-                            <label for="name">Nombre</label>
+                            <label for="name">Name</label>
                             <input type="text" name="name" placeholder="Write here your name" autocomplete="off" required>
-                            <label for="lastName">Apellido</label>
+                            <label for="lastName">Sourname</label>
                             <input type="text" name="lastName" placeholder="Write here your lastname" autocomplete="off" required>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" placeholder="Write here your email" autocomplete="off" required>
                             <label for="userName">User</label>
                             <input type="text" name="userName" maxlength="18" placeholder="Write here your username" autocomplete="off" required>
                             <label for="password">Password</label>

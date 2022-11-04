@@ -1,5 +1,6 @@
 <?php
 
+//Datos bbdd
 $_servername = "localhost";
 $_username = "root";
 $_password = "rootroot";
